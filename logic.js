@@ -7,5 +7,5 @@ function generatePassword(length) {
     }
     return password;
 }
-
-console.log(generatePassword(12));
+history
+console.log(generatePassword(11));

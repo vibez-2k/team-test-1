@@ -1,5 +1,5 @@
 function generatePassword(length) {
-    var charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=";
+    var charSet = "ABCDEFGH";
     var password = "";
     for (var i = 0; i < length; i++) {
         var randomIndex = Math.floor(Math.random() * charSet.length);

@@ -8,6 +8,10 @@ function generatePassword(length) {
     return password;
 }
 
+history
+console.log(generatePassword(11));
+
+
 console.log(generatePassword(12));
 
 
